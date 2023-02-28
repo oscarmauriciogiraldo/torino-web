@@ -8,6 +8,7 @@ import { BannerComponent } from './pages/home/banner/banner.component';
 import { LineasComponent } from './pages/home/lineas/lineas.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerComponent,
     LineasComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,
